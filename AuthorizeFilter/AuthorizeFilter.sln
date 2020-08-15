@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizeFilter", "AuthorizeFilter\AuthorizeFilter.csproj", "{D24948CF-9E16-4CB4-B93F-0FD8467C0C9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter_HandleError", "Filter_HandleError\Filter_HandleError.csproj", "{D0C72B9E-9B3F-42A2-80BA-76ABD012BD7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filter_CustomHandleError", "Filter_CustomHandleError\Filter_CustomHandleError.csproj", "{CE8CCB0E-4599-4FDE-9280-25ABC6FE663B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D24948CF-9E16-4CB4-B93F-0FD8467C0C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D24948CF-9E16-4CB4-B93F-0FD8467C0C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D24948CF-9E16-4CB4-B93F-0FD8467C0C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C72B9E-9B3F-42A2-80BA-76ABD012BD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C72B9E-9B3F-42A2-80BA-76ABD012BD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C72B9E-9B3F-42A2-80BA-76ABD012BD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C72B9E-9B3F-42A2-80BA-76ABD012BD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8CCB0E-4599-4FDE-9280-25ABC6FE663B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8CCB0E-4599-4FDE-9280-25ABC6FE663B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8CCB0E-4599-4FDE-9280-25ABC6FE663B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8CCB0E-4599-4FDE-9280-25ABC6FE663B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
